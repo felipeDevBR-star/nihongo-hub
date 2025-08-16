@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-  width: 100px; /* tamanho visível */
+  width: 30px; /* tamanho visível */
   height: auto;
   margin-left: 250px;
 }
@@ -53,6 +53,7 @@ h1 {
   height: auto;               /* altura proporcional */
 
 }
+
 
 
 
