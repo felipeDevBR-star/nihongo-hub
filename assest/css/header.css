@@ -46,9 +46,10 @@ h1 {
 
 .retangulo .personagem {
   position: absolute;         /* permite posicionar dentro do retângulo */
-  top: 51%;                   /* centraliza verticalmente */
+  top: 50%;                   /* centraliza verticalmente */
   left: 76%;                  /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* centralização exata */
-  width: 48%;                 /* largura da imagem dentro do retângulo */
+  width: 100%;                 /* largura da imagem dentro do retângulo */
   height: auto;               /* altura proporcional */
+
 }
