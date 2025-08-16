@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  max-width: 1024px; /* limita largura */
+  max-width: 100%; /* limita largura */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -14,9 +14,9 @@ header {
 }
 
 header img {
-  width: 110px; /* tamanho visível */
+  width: 50px; /* tamanho visível */
   height: auto;
-  margin-left: -120px;
+  margin-left: 50px;
 }
 
 header nav ul {
@@ -47,9 +47,10 @@ h1 {
 .retangulo .personagem {
   position: absolute;         /* permite posicionar dentro do retângulo */
   top: 50%;                   /* centraliza verticalmente */
-  left: 76%;                  /* centraliza horizontalmente */
+  left: 63%;                  /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* centralização exata */
-  width: 100%;                 /* largura da imagem dentro do retângulo */
+  width: 900px;                 /* largura da imagem dentro do retângulo */
   height: auto;               /* altura proporcional */
 
 }
+
