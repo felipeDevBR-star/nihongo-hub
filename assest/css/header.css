@@ -27,8 +27,8 @@ header nav ul {
   font-size: 20px;
   margin: 0;
   padding: 0;
-  margin-left: 830px;
-  margin-top: -35px;
+  margin-left: 70%;
+  margin-top: 98%;
 }
 
 header nav ul li {
@@ -46,11 +46,12 @@ h1 {
 
 .retangulo .personagem {
   position: absolute;         /* permite posicionar dentro do retângulo */
-  top: 50%;                   /* centraliza verticalmente */
+  top: 70%;                   /* centraliza verticalmente */
   left: 63%;                  /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* centralização exata */
-  width: 900px;                 /* largura da imagem dentro do retângulo */
+  width: 700px;                 /* largura da imagem dentro do retângulo */
   height: auto;               /* altura proporcional */
 
 }
+
 
