@@ -4,12 +4,11 @@ body {
 }
 
 .img1 {
-  width: 100%;        /* ocupa toda a largura do container */
-  max-width: 500px;   /* não passa disso no PC */
-  height: auto;       /* mantém proporção */
-  display: block;
-  margin: 0 auto;     /* centraliza a imagem */
-  border-radius: 8px; /* opcional, arredonda cantos */
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 900px;
+  height: auto;
 }
 
 header {
@@ -74,9 +73,7 @@ header nav ul li {
 
 
 .introdução {
-  max-width: 90%;  /* em vez de pixels fixos */
-  margin: 0 auto;
-  padding: 20px;
+  padding: 1000px 20px;
 }
 
 .text12 {
@@ -160,7 +157,3 @@ body {
 .romaji {
   font-family: 'DM Serif Text', serif;
 }
-
-
-
-
