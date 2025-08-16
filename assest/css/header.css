@@ -1,3 +1,38 @@
+/* Estilo geral para PC */
+body {
+  font-size: 18px;
+}
+
+img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+/* Ajustes para celular */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* texto menor no celular */
+  }
+
+  img {
+    max-width: 300px; /* imagens menores no celular */
+  }
+
+  h1 {
+    font-size: 24px;  /* título menor */
+  }
+
+  h2 {
+    font-size: 20px;  /* subtítulo menor */
+  }
+
+  p {
+    font-size: 16px;  /* parágrafo menor */
+  }
+}
+
+
 body {
     background: rgb(242, 242, 224);
     margin-bottom: 500px;
@@ -157,3 +192,4 @@ body {
 .romaji {
   font-family: 'DM Serif Text', serif;
 }
+
