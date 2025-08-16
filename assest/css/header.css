@@ -6,10 +6,10 @@ body {
 
 header {
   max-width: 100%; /* limita largura */
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   padding: 0px;
 }
 
@@ -36,12 +36,12 @@ header nav ul li {
 }
 
 h1 {
-  font-size: 30px;          /* aumenta o tamanho do texto */
+  font-size: 10px;          /* aumenta o tamanho do texto */
   font-weight: bold;
   color: #3a0202;           /* preto, ou troque para outra cor se quiser */
   margin-top: 150px;
   text-align: center;       /* centraliza horizontalmente */
-  transform: translateX(-800px); /* desloca um pouco para a direita */
+  transform: translateX(-400px); /* desloca um pouco para a direita */
 }
 
 .retangulo .personagem {
@@ -53,6 +53,7 @@ h1 {
   height: auto;               /* altura proporcional */
 
 }
+
 
 
 
