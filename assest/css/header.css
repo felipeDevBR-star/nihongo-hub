@@ -1,61 +1,114 @@
-/* Layout para telas grandes (desktop) já está ok) */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Layout para telas até 768px (celulares e tablets) */
+/* Corpo do site */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #222;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #f5f5f5;
+  border-bottom: 2px solid #ccc;
+}
+
+header img {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Menu */
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Texto principal */
+.introducao {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.introducao h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.introducao p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Imagens */
+.imagem {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* -------- RESPONSIVIDADE -------- */
 @media (max-width: 768px) {
-
-  .img1 {
-    position: relative;   /* deixa a imagem no fluxo normal */
-    width: 100%;          /* ocupa a largura da tela */
-    top: 0;               /* tira o deslocamento fixo */
-  }
-
   header {
     flex-direction: column;
-    padding: 10px 20px;
+    text-align: center;
   }
 
   header nav ul {
     flex-direction: column;
-    gap: 15px;
-    margin: 20px 0 0 0;
-    font-size: 18px;
+    gap: 10px;
   }
 
-  .hero-text {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    margin: 20px auto;
-    text-align: center;
+  .introducao h1 {
+    font-size: 1.8rem;
   }
 
-  .hero-text h1 {
-    font-size: 36px; /* reduz tamanho do título */
+  .introducao p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
   }
 
-  .hero-text p {
-    font-size: 18px;
+  header img {
+    max-width: 90px;
   }
 
-  .introdução {
-    padding: 60px 15px; /* espaço mais realista */
+  header nav ul li a {
+    font-size: 16px;
   }
 
-  .text1, .text2, .text3 {
-    margin: 20px 0;  /* sem valores fixos */
-    font-size: 18px;
-    text-align: left;
+  .introducao h1 {
+    font-size: 1.5rem;
   }
 
-  .Rōmaji {
-    box-shadow: 0px 0 20px rgba(249, 173, 8, 0.3);
-    padding: 20px;
-  }
-
-  .Rōmaji h1,
-  .Rōmaji p {
-    margin-left: 0;
-    font-size: 18px;
+  .introducao p {
+    font-size: 0.95rem;
   }
 }
