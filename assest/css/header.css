@@ -27,8 +27,8 @@ header nav ul {
   font-size: 20px;
   margin: 0;
   padding: 0;
-  margin-left: 70%;
-  margin-top: 98%;
+  margin-left: 20%;
+  margin-top: 50%;
 }
 
 header nav ul li {
@@ -49,10 +49,11 @@ h1 {
   top: 40%;                   /* centraliza verticalmente */
   left: 65%;                  /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* centralização exata */
-  width: 500px;                 /* largura da imagem dentro do retângulo */
+  width: 900px;                 /* largura da imagem dentro do retângulo */
   height: auto;               /* altura proporcional */
 
 }
+
 
 
 
