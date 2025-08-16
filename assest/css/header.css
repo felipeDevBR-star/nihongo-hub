@@ -4,11 +4,12 @@ body {
 }
 
 .img1 {
-  width: 0%;       /* ocupa a largura da tela */
-  max-width: 900px;  /* não ultrapassa 900px no PC */
-  height: auto;
+  width: 100%;        /* ocupa toda a largura do container */
+  max-width: 500px;   /* não passa disso no PC */
+  height: auto;       /* mantém proporção */
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;     /* centraliza a imagem */
+  border-radius: 8px; /* opcional, arredonda cantos */
 }
 
 header {
@@ -159,6 +160,7 @@ body {
 .romaji {
   font-family: 'DM Serif Text', serif;
 }
+
 
 
 
