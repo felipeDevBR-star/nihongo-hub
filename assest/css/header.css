@@ -16,7 +16,7 @@ header {
 header img {
   width: 50px; /* tamanho visível */
   height: auto;
-  margin-left: 50px;
+  margin-left: 300px;
 }
 
 header nav ul {
@@ -41,7 +41,7 @@ h1 {
   color: #3a0202;           /* preto, ou troque para outra cor se quiser */
   margin-top: 150px;
   text-align: center;       /* centraliza horizontalmente */
-  transform: translateX(-400px); /* desloca um pouco para a direita */
+  transform: translateX(50%); /* desloca um pouco para a direita */
 }
 
 .retangulo .personagem {
@@ -53,6 +53,7 @@ h1 {
   height: auto;               /* altura proporcional */
 
 }
+
 
 
 
