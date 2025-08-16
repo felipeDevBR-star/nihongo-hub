@@ -1,195 +1,54 @@
-/* Estilo geral para PC */
-body {
-  font-size: 18px;
-}
-
-img {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-}
-
-/* Ajustes para celular */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px; /* texto menor no celular */
-  }
-
-  img {
-    max-width: 300px; /* imagens menores no celular */
-  }
-
-  h1 {
-    font-size: 24px;  /* título menor */
-  }
-
-  h2 {
-    font-size: 20px;  /* subtítulo menor */
-  }
-
-  p {
-    font-size: 16px;  /* parágrafo menor */
-  }
-}
-
-
 body {
     background: rgb(242, 242, 224);
-    margin-bottom: 500px;
-}
-
-.img1 {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  width: 900px;
-  height: auto;
+    overscroll-behavior: none;
+    overflow: hidden;
 }
 
 header {
-  width: 100%;
+  max-width: 1024px; /* limita largura */
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 40px;
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
+  padding: 0px;
 }
 
 header img {
-  width: 100px;
+  width: 110px; /* tamanho visível */
   height: auto;
-  display: block;
+  margin-left: -120px;
 }
 
 header nav ul {
   display: flex;
   list-style: none;
-  gap: 35px;
-  margin: -40px 0 0 0;
-  padding: 0;
+  gap: 35px; 
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  margin-left: 830px;
+  margin-top: -35px;
 }
 
 header nav ul li {
-  color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
-
-.hero-text {
-  font-size: 100%;
-  position: absolute;
-  top: 40%;
-  left: 70%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: rgb(4, 2, 2);
-  
+h1 {
+  font-size: 70px;          /* aumenta o tamanho do texto */
+  font-weight: bold;
+  color: #3a0202;           /* preto, ou troque para outra cor se quiser */
+  margin-top: 150px;
+  text-align: center;       /* centraliza horizontalmente */
+  transform: translateX(-400px); /* desloca um pouco para a direita */
 }
 
-.hero-text h1 {
-  font-family: 'DM Serif Text', serif;
-  font-size:72px !important;
-  margin: 0;
+.retangulo .personagem {
+  position: absolute;         /* permite posicionar dentro do retângulo */
+  top: 51%;                   /* centraliza verticalmente */
+  left: 76%;                  /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* centralização exata */
+  width: 48%;                 /* largura da imagem dentro do retângulo */
+  height: auto;               /* altura proporcional */
 }
-
-.hero-text p {
-
-  font-family: 'DM Serif Text', serif;
-  font-size: 28px !important;
-  margin: 10px 0 0 0;
-}
-
-/* /////////////////////////////////////////////////////////////////////// */
-
-
-.introdução {
-  padding: 1000px 20px;
-}
-
-.text12 {
-  font-family: 'DM Serif Text', serif;
-  margin-left: 60px;
-  font-size: 33px;
-  font-weight: 700;
-  color: #4a0303;
-  margin-bottom: 20px;
-}
-
-.hiraganaA, .katakanaA, .☀{
-  margin: 50px;
-  width: 10%;
-}
-
-
-.text1, .text2, .text3 {
-  margin-top: -180px;
-  margin-left: 210px;
-  font-size: 23px;
-}
-
-.introdução p {
-  margin-left: 20px;
-  font-size: 20px;
-  color: #000000;
-  line-height: 1.6;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-}
-
-.text1 h1 , .text2 h1, .text3 h1 {
-  font-weight: 700;
-}
-
-.Rōmaji {
-  box-shadow: 0px 0 50px rgba(249, 173, 8, 0.3);
-}
-
-.Rōmaji h1 {
-  margin-top: 90px;
-  margin-left: 210px;
-  font-size: 23px;
-  font-weight: 700;
-}
-
-.Rōmaji p {
-  margin-top: 10px;
-  margin-left: 230px;
-  font-size: 23px;
-}
-
-.ex {
-  margin-top: 50px;
-  margin-left: 40px;
-}
-
-.textos1 {
-  font-size: 20px;
-  font-family: 'DM Serif Text', serif;
-}
-
-.br {
-  font-family: 'DM Serif Text', serif;
-}
-
-.caracteres {
-  font-family: 'DM Serif Text', serif;
-}
-
-.explicação {
-  font-size: 20px;
-  margin-bottom: 0px;
-}
-
-.romaji {
-  font-family: 'DM Serif Text', serif;
-}
-
