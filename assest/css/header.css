@@ -4,7 +4,7 @@ body {
 }
 
 .img1 {
-  width: 25%;       /* ocupa a largura da tela */
+  width: 0%;       /* ocupa a largura da tela */
   max-width: 900px;  /* não ultrapassa 900px no PC */
   height: auto;
   display: block;
@@ -159,5 +159,6 @@ body {
 .romaji {
   font-family: 'DM Serif Text', serif;
 }
+
 
 
