@@ -4,11 +4,11 @@ body {
 }
 
 .img1 {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  width: 900px;
+  width: 100%;       /* ocupa a largura da tela */
+  max-width: 900px;  /* não ultrapassa 900px no PC */
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 header {
@@ -73,7 +73,9 @@ header nav ul li {
 
 
 .introdução {
-  padding: 1000px 20px;
+  max-width: 90%;  /* em vez de pixels fixos */
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .text12 {
@@ -157,3 +159,4 @@ body {
 .romaji {
   font-family: 'DM Serif Text', serif;
 }
+
