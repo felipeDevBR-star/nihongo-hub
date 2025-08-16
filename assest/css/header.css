@@ -14,9 +14,9 @@ header {
 }
 
 header img {
-  width: 50px; /* tamanho visível */
+  width: 100px; /* tamanho visível */
   height: auto;
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 header nav ul {
@@ -41,7 +41,7 @@ h1 {
   color: #3a0202;           /* preto, ou troque para outra cor se quiser */
   margin-top: 150px;
   text-align: center;       /* centraliza horizontalmente */
-  transform: translateX(50%); /* desloca um pouco para a direita */
+  transform: translateX(200px); /* desloca um pouco para a direita */
 }
 
 .retangulo .personagem {
@@ -49,10 +49,11 @@ h1 {
   top: 40%;                   /* centraliza verticalmente */
   left: 65%;                  /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* centralização exata */
-  width: 900px;                 /* largura da imagem dentro do retângulo */
+  width: 700px;                 /* largura da imagem dentro do retângulo */
   height: auto;               /* altura proporcional */
 
 }
+
 
 
 
