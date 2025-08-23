@@ -4,7 +4,7 @@ body {
   overscroll-behavior: none;
   overflow-y: auto;   /* scroll vertical */
   overflow-x: hidden;
-  min-height: 60vh;  /* altura menor que no PC */
+  min-height: 50vh;  /* altura menor que no PC */
 }
 
 /* PC: scroll vertical ativo */
@@ -370,6 +370,7 @@ h1 {
 }
 
 /* End Ajustes para celular */
+
 
 
 
