@@ -191,7 +191,7 @@ h1 {
     flex-direction: column;   /* empilha os botões */
     align-items: center;      /* centraliza horizontalmente */
     gap: 1px;
-    top: 920px;
+    top: 620px;
     left: 10px;
   }
 
@@ -275,12 +275,12 @@ h1 {
   .inform {
     font-size: 22px;
     margin-left: -20%;
-    margin-top: 825px;
+    margin-top: 700px;
   }
 
   .imagem {
-    width: 91%;
-    top: 80%;
+    width: 92%;
+    top: 75%;
     left: 0%;
     max-width: none;
     transform: translateY(-50%);
@@ -370,6 +370,7 @@ h1 {
 }
 
 /* End Ajustes para celular */
+
 
 
 
