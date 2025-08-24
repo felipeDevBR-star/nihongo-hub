@@ -191,19 +191,19 @@ h1 {
     flex-direction: column;   /* empilha os botões */
     align-items: center;      /* centraliza horizontalmente */
     gap: 3px;
-    top: 1050px;
-    left: 10px;
+    top: 1025px;
+    left: 15px;
   }
 
   .btn {
     width: -10%;               /* ocupa quase toda a largura da tela */
     padding: 1px 1px;        /* reduz tamanho do botão */
-    font-size: 14px;          /* texto menor */
+    font-size: 17px;          /* texto menor */
   }
 
   .btn img {
-    width: 40px;              /* ícone menor */
-    height: 40px;
+    width: 50px;              /* ícone menor */
+    height: 50px;
   }
 }
 /* End Ajustes para celular */
@@ -370,6 +370,7 @@ h1 {
 }
 
 /* End Ajustes para celular */
+
 
 
 
