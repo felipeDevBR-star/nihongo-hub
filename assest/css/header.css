@@ -275,12 +275,12 @@ h1 {
   .inform {
     font-size: 22px;
     margin-left: -20%;
-    margin-top: 400px;
+    margin-top: 380px;
   }
 
   .imagem {
     width: 95%;
-    top: 80%;
+    top: 84%;
     left: 0%;
     max-width: none;
     transform: translateY(-50%);
@@ -370,6 +370,7 @@ h1 {
 }
 
 /* End Ajustes para celular */
+
 
 
 
