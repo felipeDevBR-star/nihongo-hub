@@ -191,7 +191,7 @@ h1 {
     flex-direction: column;   /* empilha os botões */
     align-items: center;      /* centraliza horizontalmente */
     gap: 1px;
-    top: 1200px;
+    top: 1100px;
     left: 10px;
   }
 
@@ -275,7 +275,7 @@ h1 {
   .inform {
     font-size: 22px;
     margin-left: -20%;
-    margin-top: 700px;
+    margin-top: 1000px;
   }
 
   .imagem {
@@ -370,6 +370,7 @@ h1 {
 }
 
 /* End Ajustes para celular */
+
 
 
 
