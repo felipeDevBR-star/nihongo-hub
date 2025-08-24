@@ -280,7 +280,7 @@ h1 {
 
   .imagem {
     width: 95%;
-    top: 50%;
+    top: 80%;
     left: 0%;
     max-width: none;
     transform: translateY(-50%);
@@ -370,6 +370,7 @@ h1 {
 }
 
 /* End Ajustes para celular */
+
 
 
 
