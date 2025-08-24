@@ -190,8 +190,8 @@ h1 {
     display: flex;
     flex-direction: column;   /* empilha os botões */
     align-items: center;      /* centraliza horizontalmente */
-    gap: 1px;
-    top: 1100px;
+    gap: 3px;
+    top: 1050px;
     left: 10px;
   }
 
@@ -202,8 +202,8 @@ h1 {
   }
 
   .btn img {
-    width: 30px;              /* ícone menor */
-    height: 30px;
+    width: 40px;              /* ícone menor */
+    height: 40px;
   }
 }
 /* End Ajustes para celular */
@@ -275,7 +275,7 @@ h1 {
   .inform {
     font-size: 22px;
     margin-left: -20%;
-    margin-top: 1000px;
+    margin-top: 400px;
   }
 
   .imagem {
@@ -370,6 +370,7 @@ h1 {
 }
 
 /* End Ajustes para celular */
+
 
 
 
